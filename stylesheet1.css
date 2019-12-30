@@ -1,0 +1,9 @@
+.cont a:hover {
+    background-color: dodgerblue; 
+    color: #ffffff;
+}
+
+.maintab li a:hover {
+    background-color: dodgerblue;
+    color: #ffffff;
+}
