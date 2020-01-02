@@ -8,13 +8,14 @@ html {
         border-radius: 3px;
         padding: 5px;
         font-family: monospace;
-        font-size: 150%;
+        font-size: 125%;
 }
 
 .navbar-brand:hover {
         background-color: #ffffff;
         color: #000000;
         transition: 0.2s;
+        transform: scale(1.07);
 }
 
 .navbar-toggler  {
@@ -27,6 +28,7 @@ html {
     background-color: #ffffff;
     color: #000000;
     transition: 0.2s;
+    transform: scale(1.10);
 }
 
 ul {
@@ -61,6 +63,7 @@ i:hover {
 
 #navbarNavDropdown ul li a:hover {
     color: #000000;
+    transform: scale(1.05);
     background-color: #ffffff;
     padding: 5px;
     transition: 0.2s;
@@ -71,9 +74,19 @@ i:hover {
     color: #ffffff;
 }
 
-.contactnav li i {
+.dropdown-menu a {
     border-radius: 5px;
+    padding: 5px;
+    width: auto;
+    align-content: center;
+    margin-left: 30px;
 }
+
+.dropdown-menu a:hover {
+    color: black;
+    background-color: #1f8b7e;
+}
+
 
 
 
