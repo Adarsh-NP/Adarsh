@@ -1,0 +1,33 @@
+/*@media only screen and (min-width:576px){
+    .aboutlines {
+        margin-top: 0px;
+        color: #ffffff;
+        float: left;
+        background-color: rgba(203, 203, 203, 0.33)
+    }  
+    
+     #about img {
+    align-content: center;
+    width: 200px;
+    height: auto;
+    margin-left: 110px;
+         
+    }
+}
+
+@media only screen and (min-width:0px) and (max-width:575px){
+    .aboutlines {
+    color: #ffffff;
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+    #about img {
+    align-content: center;
+    width: 40%;
+    height: auto;
+    margin-left: 145px;
+}
+
+}
+*/

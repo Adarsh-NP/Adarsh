@@ -2,20 +2,21 @@ html {
     scroll-behavior: smooth;
 }
 
+
 /* navigation bar starts */
 .navbar-brand {
         color: #ffffff;
         border-radius: 3px;
         padding: 5px;
         font-family: monospace;
-        font-size: 125%;
+        font-size: 135%;
 }
 
 .navbar-brand:hover {
         background-color: #ffffff;
         color: #000000;
         transition: 0.2s;
-        transform: scale(1.07);
+        transform: scale(1.05);
 }
 
 .navbar-toggler  {
@@ -39,29 +40,28 @@ i {
     font-size: 150%;
 }
 
-i:hover {
-    color: #000000;
-}
 
 .navcolor {
     background-color: #1f8b7e;
     border-radius: 5px;
-    opacity: 1;
+    opacity: 0.8;
     font-weight: 400;
 }
 
 .nav-link {
     margin-left: 6px;
     margin-right: 4px;
+    border-radius: 5px;
 }
 
-#navbarNavDropdown ul li a {
+ #navbarNavDropdown ul li a {
     color: #ffffff;
     border-radius: 5px;
     padding: 5px;
 }
 
-#navbarNavDropdown ul li a:hover {
+#navbarNavDropdown ul li
+a:hover, a:active {
     color: #000000;
     transform: scale(1.05);
     background-color: #ffffff;
@@ -79,12 +79,12 @@ i:hover {
     padding: 5px;
     width: auto;
     align-content: center;
-    margin-left: 30px;
+    margin-right: 12px;
+    margin-left: 8px;
 }
 
 .dropdown-menu a:hover {
-    color: black;
-    background-color: #1f8b7e;
+    background-color: none;
 }
 
 
@@ -95,17 +95,135 @@ i:hover {
 
 body{
 			overflow-x: hidden;
-			background-image: url(resources/kevin-ku-w7ZyuGYNpRQ-unsplash.jpg);
+            padding-top: 70px;
+			background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(resources/kevin-ku-w7ZyuGYNpRQ-unsplash.jpg);
 			background-size: cover;
 			background-attachment: fixed!important;
 			overflow-y: scroll;
 			background-repeat: no-repeat;
 		}
 
-h1{
-    margin-top: 700px;
-    background-color: aqua;
-    color: white;
+h1, h2, h3, h4, h5 {
+    align-content: center;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 400;
+    font-family: Aileron;
+
 }
+
+.welcome {
+    padding-top: 50px;
+    text-align: center;
+    font-family: Aileron;
+    font-weight: 400;
+    margin-top: 35vh;
+    margin-bottom: 50vh;
+}
+
+.welcome a i {
+    font-size: 200%;
+    color: #ffffff;
+}
+
+#about {
+    padding-bottom: 60px;
+    margin-top: 35vh;
+    margin-bottom: 20vh;
+    padding-top: 30px;
+    border-radius: 9px;
+    width: 95%;
+    background-color: rgba(63, 108, 93, 0.58);
+}
+
+#intro {
+    margin-bottom: 30px;
+}
+
+.aboutimg img {
+    height: 200px;
+    width: auto;
+    border-radius: 3px;
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
+.aboutimg img:hover {
+    height: 200px;
+    width: auto;
+    border-radius: 3px;
+    opacity: 1;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.aboutlines {
+    color: #ffffff;
+    font-family: Aileron;
+    margin-top: 2%
+}
+
+.programminglang1 {
+    border-right: 2px solid #ffffff;
+}
+
+#skills {
+    margin-top: 10vh;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: rgba(63, 108, 93, 0.58);
+    width: 95%;
+    border-radius: 9px;
+    margin-bottom: 30vh;
+}
+
+#skills li{
+    margin: auto;
+    padding: 3px;
+    font-family: Aileron;
+    font-weight: 500;
+    color: #ffffff;
+    
+}
+
+.webdtools {
+
+}
+
+.ends {
+    padding-top: 5px;
+}
+
+.front {
+    border-right: 1px solid #ffffff;
+}
+
+
+#Projects {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: rgba(63, 108, 93, 0.58);
+    width: 95%;
+    border-radius: 9px;
+}
+
+.trekking ul li a {
+    text-decoration: none;
+    color: #a2d665;
+    font-family:Aileron;
+    font-size: 20px;
+    list-style: none;
+}
+
+.others ul li a {
+    text-decoration: none;
+    color: #a2d665;
+    font-family:Aileron;
+    font-size: 20px;
+    list-style: none;
+}
+
+
+
 
 
