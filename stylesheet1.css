@@ -194,8 +194,9 @@ i:hover, i:active {
 }
 
 
-.ends {
+.ends h4 {
     padding-top: 5px;
+    margin-left: 30px;
 }
 
 
